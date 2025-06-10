@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Playwrite+DK+Loopet:wght@100..400&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Condensed+One&display=swap');
+
+.apresentacao_produtos{
+    width: 100%;
+}
+
+.apresentacao_produtos h1{
+  font-family: "Playwrite DK Loopet", cursive;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+.polaroid-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.polaroid {
+  background: white;
+  border: 4px solid white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    width: 85%;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding-bottom: 0.5rem;
+  transform-origin: bottom center;/*
+  font-family: 'Patrick Hand', cursive; */
+  margin: 1rem 0px;
+}
+
+.polaroid img {
+  width: 100%;
+  height: 20rem;
+  display: block;
+  border-bottom: 3px solid white;
+  border-radius: 2px;
+}
+
+.polaroid p {
+  margin-top: 0.3rem;
+  font-size: 0.75rem;
+  color: #1c0040;
+  font-family: "Playwrite DK Loopet", cursive;
+}
+
+

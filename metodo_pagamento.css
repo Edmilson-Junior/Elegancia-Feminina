@@ -1,0 +1,55 @@
+.metodo_pagamento h2{
+  font-family: "Playwrite DK Loopet", cursive;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.buy-options {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1em;
+      justify-content: center;
+    }
+    .option {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1.5em;
+      width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: left;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .option:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+    }
+    .option h3 {
+      margin-top: 0;
+      color: #a67b5b;
+    }
+    .icon {
+      font-size: 2em;
+      color: #a67b5b;
+      vertical-align: middle;
+      margin-right: 0.5em;
+    }
+    .btn-buy {
+      display: inline-block;
+      margin-top: 1em;
+      background: #a67b5b;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.6em 1.2em;
+      border-radius: 4px;
+      transition: background 0.2s ease;
+    }
+    .btn-buy:hover {
+      background: #94715a;
+    }
+    .small {
+      font-size: 0.9em;
+      color: #777;
+      margin-top: 0.5em;
+    }
