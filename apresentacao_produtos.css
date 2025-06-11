@@ -2,13 +2,14 @@
 
 .apresentacao_produtos{
     width: 100%;
+    background:#faf8f6;
 }
 
 .apresentacao_produtos h1{
   font-family: "Playwrite DK Loopet", cursive;
   text-align: center;
   padding: 10px;
-  color: #fff;
+  color:#a67b5b;
 }
 
 .swiper {

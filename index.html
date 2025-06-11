@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="remix icon/remixicon.css">
     <link rel="stylesheet" href="apresentacao_produtos.css">
     <link rel="stylesheet" href="rodape.css">
+    <link rel="stylesheet" href="paralax.css">
     <link rel="stylesheet" href="metodo_pagamento.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="shortcut icon" href="Logo.png" type="image/x-icon">
@@ -17,9 +18,9 @@
     <header>
         <nav class="navbar">
             <li class="logo"><img src="Logo.png" alt="Logo"></li>
-            <li><a href="#home"><i class="ri-home-fill"></i></a></li>
-            <li><a href="#produtos"><i class="ri-shopping-bag-line"></i></a></li>
-            <li><a href="#novidades"><i class="ri-flashlight-fill"></i></a></li>
+            <li><a href="#inicio"><i class="ri-home-fill"></i></a></li>
+            <li><a href="#novidades-promo"><i class="ri-shopping-bag-line"></i></a></li>
+            <!-- <li><a href="#"><i class="ri-flashlight-fill"></i></a></li> -->
             <li><a href="#sobre"><i class="ri-information-line"></i></a></li>
         </nav>
     </header>
@@ -39,6 +40,8 @@
             <p>Descubra designs únicos que abraçam o seu pescoço com elegância. Complete o seu look com um colar que desperta o brilho em si.</p>
             <a href="colares.html" class="btn-primary">Explorar Colares</a>
         </section>
+
+        <section class="parallax"><h2>Descubra designs únicos que abraçam o seu pescoço com elegância. Complete o seu look com um colar que desperta o brilho em si.</h2></section>
 
         <section class="apresentacao_produtos">
             <h1>“Joias que contam a tua história”</h1>
@@ -68,20 +71,29 @@
             </div>
         </section>
 
-        <section id="sobre-promo" class="promo-section">
-            <h2>Quem somos, para si</h2>
-            <p>Conheça a história da Essência Dourada: valores, paixão por joias e compromisso com a elegância que fala ao coração.</p>
-            <a href="sobre.html" class="btn-primary">Saber Mais</a>
-        </section>
-
         <section id="brincos-promo" class="promo-section">
             <h2>Brincos com poder de encantar</h2>
             <p>Brincos delicados ou marcantes — escolha a peça capaz de refletir a sua personalidade e emocionar a quem o observa.</p>
             <a href="brincos.html" class="btn-primary">Ver Brincos</a>
         </section>
 
+        <section class="parallax2"><h2>Brincos delicados ou marcantes — escolha a peça capaz de refletir a sua personalidade e emocionar a quem o observa.</h2></section>
 
-        <section class="metodo_pagamento">
+        <section id="novidades-promo" class="promo-section">
+            <h2>Novidades que inspiram mudança</h2>
+            <p>Seja a primeira a descobrir as coleções recentes — esteires de inovação e design pensados para si.</p>
+            <a href="novidades.html" class="btn-primary">Ver Novidades</a>
+        </section>
+
+        <section class="parallax3"><h2>Seja a primeira a descobrir as coleções recentes — esteires de inovação e design pensados para si.</h2></section>
+
+        <section id="conjuntos-promo" class="promo-section">
+            <h2>Conjuntos para harmonia perfeita</h2>
+            <p>Harmonize colar, brincos e pulseira em conjuntos prontos para realçar a sua beleza com estilo e elegância.</p>
+            <a href="conjuntos.html" class="btn-primary">Ver Conjuntos</a>
+        </section>
+
+        <section class="metodo_pagamento" id="conjuntos">
             <h2>Escolha a sua forma de compra</h2>
             <div class="buy-options">
 
@@ -89,33 +101,22 @@
                 <div class="option">
                 <h3><i class="ri-flashlight-line icon"></i>Entrega Expressa</h3>
                 <p>Recebe em até 48h com envio expresso.</p>
+                <p>Disponível apenas só na Centralidade do Zango 8000.</p>
                 <p class="small">Inclui <strong>mini presente surpresa</strong>.</p>
                 <a class="btn-buy"
-                    href="https://wa.me/244930100487"
-                    target="_blank">
+                    href="conjuntos.html"
+                    target="_self">
                     Comprar via WhatsApp
                 </a>
                 </div>
 
-                <!-- Opção 2: Entrega local e brinde -->
-                <div class="option">
-                <h3><i class="ri-map-pin-line icon"></i>Entrega Zango 8000</h3>
-                <p>Disponível só na Centralidade do Zango 8000.</p>
-                <p class="small">Inclui <strong>mini presente surpresa</strong>.</p>
-                <a class="btn-buy"
-                    href="https://wa.me/244930100487"
-                    target="_blank">
-                    Comprar via WhatsApp
-                </a>
-                </div>
-
-                <!-- Opção 3: Promoção WhatsApp -->
+                <!-- Opção 2: Promoção WhatsApp -->
                 <div class="option">
                 <h3><i class="ri-whatsapp-line icon"></i>Promoção WhatsApp <strong>20% OFF</strong></h3>
                 <p>Desconto exclusivo para compras pelo WhatsApp.</p>
                 <p class="small">Inclui <strong>brinde exclusivo</strong> ao efetuar a chamada.</p>
                 <a class="btn-buy"
-                    href="https://wa.me/244912345678"
+                    href="conjuntos.html"
                     target="_blank">
                     Comprar via WhatsApp
                 </a>
@@ -124,17 +125,10 @@
             </div>
         </section>
 
-        <section id="novidades-promo" class="promo-section">
-            <h2>Novidades que inspiram mudança</h2>
-            <p>Seja a primeira a descobrir as coleções recentes — esteires de inovação e design pensados para si.</p>
-            <a href="novidades.html" class="btn-primary">Ver Novidades</a>
-        </section>
-
-
-        <section id="conjuntos-promo" class="promo-section">
-            <h2>Conjuntos para harmonia perfeita</h2>
-            <p>Harmonize colar, brincos e pulseira em conjuntos prontos para realçar a sua beleza com estilo e elegância.</p>
-            <a href="conjuntos.html" class="btn-primary">Ver Conjuntos</a>
+        <section id="sobre" class="promo-section">
+            <h2>Quem somos, para si</h2>
+            <p>Conheça a história da Essência Dourada: valores, paixão por joias e compromisso com a elegância que fala ao coração.</p>
+            <a href="sobre.html" class="btn-primary">Saber Mais</a>
         </section>
 
     </main>

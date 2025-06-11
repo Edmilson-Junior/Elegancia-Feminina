@@ -1,0 +1,57 @@
+.parallax {
+    background-image: url('inicio2.png'); /* substitui por tua imagem */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+    padding-top: 50rem;
+  font-family: "Playwrite DK Loopet", cursive;
+  text-align: center;
+  padding: 10px;
+  color:#fff;
+}
+  }
+
+
+  .parallax2 {
+    background-image: url('brincos1.jpg'); /* substitui por tua imagem */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+  font-family: "Playwrite DK Loopet", cursive;
+  text-align: center;
+  padding: 10px;
+  color:#a67b5b;
+}
+  }
+
+.parallax3 {
+    background-image: url('novidade1.jpg'); /* substitui por tua imagem */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+  font-family: "Playwrite DK Loopet", cursive;
+  text-align: center;
+  padding: 10px;
+  color:#fff;
+}
+  }
+

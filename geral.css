@@ -1,0 +1,12 @@
+body { margin:0; font-family:'Cormorant Garamond', serif; background:#faf8f6; color:#333; }
+    header { padding:1em; background:#fff; text-align:center; box-shadow:0 1px 4px rgba(0,0,0,0.05); }
+    h1 { font-family:'Gilda Display', serif; color:#a67b5b; margin:0; }
+    main { padding:2em; max-width:800px; margin:auto; }
+    .intro { margin-bottom:2em; line-height:1.6; }
+    .produtos { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:1em; }
+    .card { background:#fff; padding:1em; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.05); text-align:center; transition:transform .2s ease; }
+    .card:hover { transform:translateY(-5px); box-shadow:0 6px 12px rgba(0,0,0,0.1); }
+    .card img { width:100%; border-radius:4px; height:200px; object-fit:cover; }
+    .card h2 { font-family:Gilda Display; font-size:1.2em; margin:0.5em 0 0; color:#a67b5b; }
+    .voltar { display:inline-block; margin-top:2em; text-decoration:none;color:#a67b5b; font-weight:bold;}
+    .voltar:hover { text-decoration:underline; }
